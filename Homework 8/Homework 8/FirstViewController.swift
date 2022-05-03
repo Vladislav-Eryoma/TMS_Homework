@@ -11,13 +11,23 @@ class FirstViewController: UIViewController {
 
     @IBOutlet var titleLabel: UILabel!
     
+    @IBOutlet var titleLabel1: UILabel!
+    @IBOutlet var titleLabel2: UILabel!
+    @IBOutlet var titleLabel3: UILabel!
+    
     var customTitle: String = ""
+    
+    var secondTask: secondHomeworkTask?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         titleLabel.text = customTitle
+        
+        titleLabel1.text = secondTask!.firstParameter
+        titleLabel2.text = secondTask!.secondParameter
+        titleLabel3.text = secondTask!.thirdParameter
         
     }
     
