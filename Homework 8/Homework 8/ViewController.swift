@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.title = "Start Screen"
     }
     
     @IBAction func didTapOpenFirstScreen() {
@@ -41,9 +43,11 @@ class ViewController: UIViewController {
         
         vc.customTitle = "Передаю этот текст через все экраны"
         
+        self.navigationController?.pushViewController(vc, animated: true)
+        
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true)
+        // self.present(vc, animated: true)
         
     }
     
@@ -52,10 +56,12 @@ class ViewController: UIViewController {
         let str1: UIStoryboard = UIStoryboard(name: "Racing", bundle: nil)
 
         let gameController: RacingGameController = str1.instantiateViewController(withIdentifier: "RacingGameController") as! RacingGameController
+        
+        self.navigationController?.pushViewController(gameController, animated: true)
 
         gameController.modalPresentationStyle = .fullScreen
         gameController.modalTransitionStyle = .flipHorizontal
-        self.present(gameController, animated: true)
+        // self.present(gameController, animated: true)
     }
     
 }

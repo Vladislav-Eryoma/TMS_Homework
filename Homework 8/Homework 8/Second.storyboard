@@ -23,17 +23,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUO-Ox-kXe">
-                                <rect key="frame" x="20" y="57" width="43" height="47"/>
-                                <color key="tintColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="X">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="27"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapClose" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lMQ-Jl-q3a"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hq-Af-nKK">
                                 <rect key="frame" x="180" y="434.5" width="54.5" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -55,12 +44,10 @@
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="8hq-Af-nKK" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="0fA-gR-G5N"/>
-                            <constraint firstItem="XUO-Ox-kXe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="3x8-GO-8NI"/>
                             <constraint firstItem="OgR-YV-eVe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="70" id="41E-Uh-r3C"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="U9Z-MA-Sda" secondAttribute="bottom" constant="281" id="R3N-x5-MYP"/>
                             <constraint firstItem="8hq-Af-nKK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ZI1-H1-4MP"/>
                             <constraint firstItem="OgR-YV-eVe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="76" id="a85-z7-tCV"/>
-                            <constraint firstItem="XUO-Ox-kXe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="ejP-Tt-vbb"/>
                             <constraint firstItem="U9Z-MA-Sda" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="125" id="pii-Cb-R7V"/>
                         </constraints>
                     </view>
@@ -74,9 +61,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

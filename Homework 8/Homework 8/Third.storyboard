@@ -17,16 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGy-MF-ssY">
-                                <rect key="frame" x="20" y="57" width="43" height="47"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="X">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="27"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapClose" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Pqi-9w-s2Y"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPW-WS-aeP">
                                 <rect key="frame" x="84" y="120" width="246" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -53,13 +43,11 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="iGy-MF-ssY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="4VP-ZG-ZQj"/>
                             <constraint firstItem="Kcv-gp-ZGl" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="ANi-3T-Mt3"/>
                             <constraint firstItem="Kcv-gp-ZGl" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Aqt-qo-iAa"/>
                             <constraint firstItem="HP7-VD-uNI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="117" id="EOJ-ic-sw6"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="HP7-VD-uNI" secondAttribute="bottom" constant="281" id="i7m-sB-39A"/>
                             <constraint firstItem="XPW-WS-aeP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="84" id="l8Y-Th-ZUa"/>
-                            <constraint firstItem="iGy-MF-ssY" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="wwF-eD-KcH"/>
                             <constraint firstItem="XPW-WS-aeP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="76" id="yxa-aT-mTc"/>
                         </constraints>
                     </view>

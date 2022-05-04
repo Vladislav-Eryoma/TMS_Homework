@@ -17,16 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtA-K3-cOo">
-                                <rect key="frame" x="20" y="57" width="43" height="47"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="X">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="27"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapClose" destination="Y6W-OH-hqX" eventType="touchUpInside" id="62h-sc-7on"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fourth View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fio-xm-ATP">
                                 <rect key="frame" x="76" y="110" width="262" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -55,12 +45,10 @@
                         <constraints>
                             <constraint firstItem="9Wo-tX-nLR" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="B2n-0d-Zqw"/>
                             <constraint firstItem="9Wo-tX-nLR" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="IMf-nO-D13"/>
-                            <constraint firstItem="NtA-K3-cOo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="e2L-zM-Iel"/>
                             <constraint firstItem="Fio-xm-ATP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="76" id="eQB-a9-zKf"/>
                             <constraint firstItem="Fio-xm-ATP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="57" id="fNL-1u-viq"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Man-CW-OLp" secondAttribute="bottom" constant="281" id="n9U-3E-12V"/>
                             <constraint firstItem="Man-CW-OLp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="126" id="nKk-dY-itA"/>
-                            <constraint firstItem="NtA-K3-cOo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="pqO-OX-KnT"/>
                         </constraints>
                     </view>
                     <connections>

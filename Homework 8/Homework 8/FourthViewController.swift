@@ -21,10 +21,6 @@ class FourthViewController: UIViewController {
         
     }
     
-    @IBAction func didTapClose() {
-        self.dismiss(animated: true)
-    }
-    
     @IBAction func didTapOpenFifthScreen() {
         
         let str: UIStoryboard = UIStoryboard(name: "Fifth", bundle: nil)
@@ -33,9 +29,11 @@ class FourthViewController: UIViewController {
         
         vc.customTitle = customTitle
         
+        self.navigationController?.pushViewController(vc, animated: true)
+        
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true)
+        // self.present(vc, animated: true)
         
     }
     

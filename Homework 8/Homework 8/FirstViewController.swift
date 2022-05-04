@@ -31,10 +31,6 @@ class FirstViewController: UIViewController {
         
     }
     
-    @IBAction func didTapClose() {
-        self.dismiss(animated: true)
-    }
-    
     @IBAction func didTapOpenSecondScreen() {
         
         let str: UIStoryboard = UIStoryboard(name: "Second", bundle: nil)
@@ -43,9 +39,11 @@ class FirstViewController: UIViewController {
         
         vc.customTitle = customTitle
         
+        self.navigationController?.pushViewController(vc, animated: true)
+        
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true)
+        //  self.present(vc, animated: true)
         
     }
     

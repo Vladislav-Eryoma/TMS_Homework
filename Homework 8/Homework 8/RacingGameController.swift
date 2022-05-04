@@ -12,10 +12,8 @@ class RacingGameController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func didTapClose() {
-        self.dismiss(animated: true)
+        
+        self.title = "Racing Game"
     }
     
     @IBAction func didTapOpenNewGame() {

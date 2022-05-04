@@ -17,16 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfV-B9-gY9">
-                                <rect key="frame" x="20" y="57" width="43" height="47"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="X">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="27"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapClose" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bAG-Fe-myL"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSy-ld-SnT">
                                 <rect key="frame" x="88" y="120" width="239" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -64,9 +54,7 @@
                             <constraint firstItem="Aky-QB-ufd" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="4UZ-4E-mmL"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zmA-mc-N3F" secondAttribute="trailing" constant="71" id="B51-Ld-xIa"/>
                             <constraint firstItem="zmA-mc-N3F" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="71" id="COJ-6B-sfA"/>
-                            <constraint firstItem="pfV-B9-gY9" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="OW6-AP-EDp"/>
                             <constraint firstItem="Aky-QB-ufd" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="XXM-3W-iY1"/>
-                            <constraint firstItem="pfV-B9-gY9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bXJ-OR-htU"/>
                             <constraint firstItem="LSy-ld-SnT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="88" id="cxV-ZR-NhK"/>
                             <constraint firstItem="LSy-ld-SnT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="76" id="sPi-6n-n9e"/>
                             <constraint firstItem="Imz-4s-eBH" firstAttribute="top" secondItem="LSy-ld-SnT" secondAttribute="bottom" constant="61" id="tem-m6-Jp0"/>

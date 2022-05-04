@@ -21,19 +21,17 @@ class FifthViewController: UIViewController {
         
     }
     
-    @IBAction func didTapClose() {
-        self.dismiss(animated: true)
-    }
-    
     @IBAction func didTapOpenStartScreen() {
         
         let str: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         let vc: ViewController = str.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         
+        self.navigationController?.popToRootViewController(animated: true)
+        
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true)
+        // self.present(vc, animated: true)
     }
     
 }
